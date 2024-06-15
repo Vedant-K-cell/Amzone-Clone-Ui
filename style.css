@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    height: 96vh;
+}
+
+.main .box {
+    height: 96vh;
+    width: 100%;
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+    background-color: #000000;
+}
+
+.navbar {
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    padding-top: 20px;
+}
+
+nav img {
+    height: 40px;
+    width: 148px;
+    position: relative;
+    z-index: 10;
+    color: #e50914;
+}
+
+.btn {
+    position: relative;
+    z-index: 10;
+}
+
+#btn-lang {
+    height: 32px;
+    width: 123px;
+    padding: 6px 36px;
+    margin-right: 20px;
+    background-color: #18161672;
+    color: white;
+    border: 0.5px solid rgba(255, 255, 255, 0.592);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-sign {
+    height: 32px;
+    width: 76px;
+    padding: 0.800;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-text {
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.first-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.sec-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.th-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.space {
+    margin: 10px;
+}
+
+.btn-last input {
+    width: 354px;
+    height: 15px;
+    padding: 24px 16px 8px;
+    background-color: #18161672;
+    color: white;
+    border: 0.2px solid rgba(255, 255, 255, 0.634);
+    border-radius: 5px;
+}
+
+.btn-last {
+    display: flex;
+}
+
+#btn-2 {
+    width: 202px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.space-last {
+    height: 8px;
+    background-color: rgba(35, 35, 35, 255);
+}
+
+.panel {
+    background-color: #000000;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 75px 0;
+}
+
+.panel-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 550px;
+}
+
+.television img {
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+}
+
+#tv-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#tv-para {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.television {
+    display: flex;
+}
+
+.television #video-1 {
+    position: absolute;
+    top: 840px;
+    right: 200px;
+    width: 30vw;
+}
+
+
+#video-2 {
+    position: absolute;
+    width: 25vw;
+    top: 1840px;
+    right: 230px;
+}
+
+.faqbox {
+    height: 120vh;
+    width: 100%;
+    background-color: #000000;
+}
+
+.faqbox h2 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.faq-text {
+    color: white;
+    background-color:  #2d2d2d;
+    width: 80%;
+    font-size: 24px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.faq-text span {
+    font-family: "Roboto", sans-serif;
+}
+
+.faqbox-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#plus {
+    color: white;
+}
+
+.faq-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.faqbtn-text {
+    color: white;
+    font-family: "Roboto", sans-serif;      
+    font-weight: 300;      
+    font-style: normal;      
+    font-size: 25px;      
+    margin-bottom: 25px;
+}
+
+footer{
+    height: 50vh;
+    width: 100%;
+    background-color: #000000;
+}
+
+.call {
+    padding: 60px 0 20px 200px;
+}
+
+.call a {
+    color: #FFFFFFB3;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-text {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.foot-text a {
+    color: #FFFFFFB3;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+.btn-foot {
+    padding-left: 200px;
+}
+
+.india {
+    padding-left: 200px;
+    margin-top: 10px;
+}
+
+.india a {
+    color: #FFFFFFB3;
+    font-size: 15px;
+    text-decoration: none;
+}
